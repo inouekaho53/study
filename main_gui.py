@@ -60,6 +60,7 @@ class WindowClass(QMainWindow, form_class):
         if len(username) >= 5 and len(username) <= 10:
             print("？？？")
             print("？？？")
+            print("？？？")
         else:
             print("ユーザ名の長さを確認してください")
             # self.label_result.setStyleSheet("Color : red")
