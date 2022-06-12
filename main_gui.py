@@ -3,7 +3,7 @@ import sys
 from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication, QMainWindow
 
-form_class = uic.loadUiType("C:/Users/inoue/OneDrive/デスクトップ/python_gui/My_UI2.ui")[0]
+form_class = uic.loadUiType("python_gui/My_UI2.ui")[0]
 
 class WindowClass(QMainWindow, form_class):
     def __init__(self):
