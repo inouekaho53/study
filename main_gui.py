@@ -61,6 +61,7 @@ class WindowClass(QMainWindow, form_class):
             print("？？？")
             print("？？？")
             print("？？？")
+            print("？？？")
         else:
             print("ユーザ名の長さを確認してください")
             # self.label_result.setStyleSheet("Color : red")
